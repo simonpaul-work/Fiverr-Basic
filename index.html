@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    
+        <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">bootStrap</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link active" href="index.html">Home</a>
+                        <a class="nav-item nav-link" href="#portfolio">Features</a>
+                        <a class="nav-item nav-link" href="#about">About</a>
+                        <a class="nav-item nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="showcase">
+                <h1>BootStrap Website</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quos officia maiores rerum incidunt sequi facere ullam sed possimus repudiandae.</p>
+                <button id="showcase-btn1" class="btn btn-lg">Learn More</button>
+                <button id="showcase-btn2" class="btn btn-lg">Learn More</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="portfolio">
+        <div class="row">
+            <div class="col-lg-4 portfolio-item">
+                <i class="fas fa-house-user fa-5x icon"></i>
+                <h3>Features</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-lg-4 portfolio-item">
+                <i class="fas fa-gamepad fa-5x icon"></i>
+                <h3>Features</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-lg-4 portfolio-item">
+                <i class="fas fa-paint-brush fa-5x icon"></i>
+                <h3>Features</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About  -->
+    <section id="about">
+        <div class="section-heading">
+            <h2>About</h2>
+        </div>
+        <div class="row about">
+            <div class="col-lg-6">
+                <p id="about-para-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem, sed reiciendis officiis quidem blanditiis expedita modi culpa. Dolore maxime fugiat temporibus doloremque 
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <p id="about-para-2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis molestias necessitatibus eligendi quasi mollitia culpa consectetur quos. A laborum minima rerum repellendus sint distinctio doloribus eligendi laboriosam libero deleniti aperia.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="section-heading">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="row">
+        <div class="form col-lg-8 mx-auto">
+            <div class="form-item">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="form-item">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="form-item">
+                <textarea name="message" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+            </div>
+            <div class="form-item">
+                <button type="submit" id="form-button" class="btn btn-lg">Submit</button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="row reach-us">
+            <div class="col-lg-4 footer-item">
+                <h3>Location</h3>
+                <p>2215 New York City <br>
+                    Clark, MO 65243</p>
+            </div>
+            <div class="col-lg-4 footer-item">
+                <i class="fab fa-twitter fa-3x footer-icon"></i>
+                <i class="fab fa-facebook fa-3x footer-icon"></i>
+                <i class="fab fa-linkedin fa-3x footer-icon"></i>
+                <i class="fab fa-instagram fa-3x footer-icon"></i>
+            </div>
+            <div class="col-lg-4 footer-item">
+                <p class="custom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero porro, molestias aspernatur officia.</p>
+                <p><b>Copyright &copy; 2020. All Right Reserved</b></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap 4 Js -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

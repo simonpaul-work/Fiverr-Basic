@@ -1,0 +1,221 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/* Header */
+
+#header {
+    background-color: #7c9473;
+    color: #fff;
+    font-family: 'Open Sans';
+}
+.container {
+    padding: 5% 3% 7%;
+}
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+a.nav-link {
+    padding: 0 18px;
+    font-size: 18px;
+}
+
+.showcase {
+    padding: 4% 1.5% 2%;
+}
+.showcase h1 {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 3.5rem;
+    letter-spacing: 1.5px;
+}
+.showcase p {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    margin: 3% 0;
+    color: #cfdac8;
+    line-height: 1.5;
+}
+#showcase-btn1 {
+    background-color: #cdd0cb;
+    color: #000;
+    border-color: #cdd0cb;
+}
+#showcase-btn1:hover {
+    background-color: transparent;
+    color: #cdd0cb;
+}
+#showcase-btn2 {
+    color: #cdd0cb;
+    border-color: #cdd0cb;
+    background-color: transparent;
+    margin-left: 1.5rem;
+}
+#showcase-btn2:hover {
+    background-color: #cdd0cb;
+    color: #000;
+}
+.btn {
+    margin-top: 3%;
+}
+
+/* Portfolio */
+
+#portfolio {
+    padding: 7% 15%;
+}
+.portfolio-item {
+    padding: 5%;
+    text-align: center;
+}
+.portfolio-item h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.portfolio-item p {
+    color: #8f8f8f;
+}
+.icon {
+    color: #7c9473;
+    margin-bottom: 2rem;
+} 
+
+/* About */
+
+#about {
+    padding: 7% 15%;
+    background-color: #cfdac8;
+}
+.section-heading {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: 'Lato';
+    font-weight: 600;
+    text-align: center;
+}
+.about {
+    padding: 3% 1.5%;
+}
+.about p {
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+}
+#about-para-2 {
+    text-align: right;
+}
+
+/* Contact */
+#contact {
+    padding: 7% 15%;
+}
+.form-item input, .form-item textarea {
+    width: 100%;
+    font-size: 1.5rem;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding: 2rem 1rem;
+    outline: none;
+    border-color: #acacac;  
+    border-width: 1px;
+    color: #495057;
+}
+#form-button {
+    background-color: #7c9473;
+    color: #fff;
+    margin: 2rem 0;
+}
+#form-button:hover {
+    background-color: #556450;
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.reach-us h3 {
+    text-transform: uppercase;
+    margin-bottom: 1.4rem;
+}
+.reach-us p {
+    line-height: 1.8;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer-icon {
+    margin: 2rem 0.5rem;
+    cursor: pointer;
+}
+.footer-icon:hover {
+    color: #000;
+}
+.custom {
+    color: #8f8f8f;
+}
+
+
+@media screen and (max-width: 990px){
+    .showcase {
+        padding: 7% 1.5% 3%;
+    }
+    .about p {
+        margin-top: 2rem;
+    }
+    .Copyright {
+        margin-top: 4rem;
+    }
+    a.nav-item {
+        text-align: center;
+        margin-top: 1.5rem;
+    } 
+    .footer-item {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .showcase {
+        text-align: center;
+        padding: 10% 0 5%;
+    }
+    .showcase h1{
+        font-size: 2.5rem;
+    }
+    .showcase p{
+        font-size: 1rem;
+        margin: 5% 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .showcase h1{
+        font-size: 2rem;
+    }
+    .showcase p{
+        font-size: 0.8rem;
+        margin: 5% 0;
+    }
+    .btn {
+        font-size: 0.9rem;
+    }
+    .about p {
+        font-size: 0.9rem;
+    }
+    .form-item input, .form-item textarea {
+        font-size: 1.2rem;
+    }
+}
